@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title> Welcome to Winnipeg...</title>
+  <meta charset=utf-8/>
+  <link rel=stylesheet type=text/css href=main.css>
+</head>
+
+<body>
+  <header>
+          <img src="images/logo.jpg">
+		  <nav>
+         <a class="activemenu" href="index.html">Home</a> 
+         <a class="menu"  href="checklist.html">Checklist</a> 
+         <a class="menu" href="accomodation.html">Accomodation</a>
+         <a class="menu" href="food.html">Food</a>
+         <a class="menu" href="community.html">Community</a>
+		 </nav>
+  </header>
+  <main>
+     <section class="sec-intro">
+        <img src="images/food.jpg" alt="The forks"/>
+        <div class="centre-content">
+        <div class="centre-copy">
+            <h2>Food</h2>
+            <p>Try out various street food</p> 
+		</div>
+		</div>
+      </section>
+
+      <div class="midcont">
+      <div class="sidenav">
+		  <label for="status">Continent:</label>
+		  <select class="navdes" name="fruit">
+			  <option value ="all">All</option>
+			  <option value ="best">Asia</option>
+			  <option value ="guava">Africa</option>
+			  <option value ="lychee">Europe</option>
+			  <option value ="papaya">North America</option>
+			  <option value ="watermelon">South America</option>
+			  <option value ="watermelon">Australia</option>
+		  </select>
+
+		<label for="status">Sort By:</label>
+		  <select class="navdes" name="fruit">
+			  <option value ="best">Best Match</option>
+			  <option value ="guava">Name</option>
+			  <option value ="lychee">Proximity</option>
+		  </select>
+
+		<label for="status">Type:</label>
+		  <select class="navdes" name="fruit">
+			  <option value ="all">All</option>
+			  <option value ="best">Resturant</option>
+			  <option value ="guava">Store</option>
+		  </select>
+	</div>
+	<div class="wrap">
+	   <div class="search">
+		  <input type="text" id="myInput" onkeyup="myFunction()" class="searchTerm" placeholder="What are you looking for?">
+		  <!-- <button type="submit" class="searchButton">
+			<i class="fa fa-search">Search</i>
+		 </button> -->
+	   </div>
+	</div>
+	<section class="things">
+        <div id="tosrh" class="faq">
+			<div class="question">
+			  <a>Kazoku Restaurant</a>
+			  <div class="answer">
+				<p>&nbsp; &nbsp; <strong>Continent</strong>: Asia</p>
+				<p>&nbsp; &nbsp; <strong>Brief</strong>: Japanese &amp; Korean dishes, from sushi &amp; ramen to bibimbop, in a sleek, minimalist dining room.</p>
+				<p>&nbsp; &nbsp; <strong>Location</strong>: 30-2579 Pembina Hwy, Winnipeg, MB R3T 2H5</p>
+				<p>&nbsp; &nbsp; <strong>Contact</strong>: (204) 269-0042</p>
+			  </div>
+			</div>
+			<div class="question">
+			  <a>The Grove Pub and Restaurant</a>
+			  <div class="answer">
+				<p>&nbsp; &nbsp; <strong>Continent</strong>: Europe</p>
+				<p>&nbsp; &nbsp; <strong>Brief</strong>: Casual neighborhood watering hole with a menu of British pub classics &amp; many brews on tap.</p>
+				<p>&nbsp; &nbsp; <strong>Location</strong>: 164 Stafford St, Winnipeg, MB R3M 2V8</p>
+				<p>&nbsp; &nbsp; <strong>Contact</strong>: Tel: &nbsp;(204) 415-3262&nbsp;</p>
+				<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Website: the-grove.ca</p>
+			  </div>
+			</div>
+			<div class="question">
+			  <a>Akin’s International Foods</a>
+			  <div class="answer">
+				<p>&nbsp; &nbsp; <strong>Continent</strong>: Noth America, Africa</p>
+				<p>&nbsp; &nbsp; <strong>Brief</strong>: African, Caribbean foods. Specialize in pounded yam, Ogi/Koko/Akamu, stockfish, Moin-Moin, cassava leaves etc.</p>
+				<p>&nbsp; &nbsp;<strong>&nbsp;Location</strong>: A-570 Sargent Ave</p>
+				<p>&nbsp; &nbsp; <strong>Contact</strong>: (204) 779-8666</p>
+			  </div>
+			</div>
+			<div class="question">
+			  <a>El Izalco Market</a>
+			  <div class="answer">
+				<p>&nbsp; &nbsp; <strong>Continent</strong>: North America</p>
+				<p>&nbsp; &nbsp; <strong>Brief</strong>: Specialize in Central American food</p>
+				<p>&nbsp; &nbsp; <strong>Location</strong>: 696 Sargent &nbsp;Ave</p>
+				<p>&nbsp; &nbsp; <strong>Contact</strong>: (204) 779-709</p>
+			  </div>
+			</div>
+			<div class="question">
+			  <a>Halal Meats and Specialty Foods</a>
+			  <div class="answer">
+				<p>&nbsp; &nbsp; <strong>Continent</strong>: Africa, Asia</p>
+				<p>&nbsp; &nbsp; <strong>Brief</strong>: Specialize in foods from Iran, Syria, Lebanon, Morocco, Somalia, and Pakistan</p>
+				<p>&nbsp; &nbsp;<strong>&nbsp;Location</strong>: 206 Maryland St.&nbsp;</p>
+				<p>&nbsp; &nbsp; <strong>Contact</strong>: (204) 774-8095</p>
+			  </div>
+			</div>
+			<div class="question">
+			  <a>Lucky's Supermarket</a>
+			  <div class="answer">
+				<p>&nbsp; &nbsp; <strong>Continent</strong>: Asia</p>
+				<p>&nbsp; &nbsp; <strong>Brief</strong>: Specialize in food from all over Asia such as Vietnam, China, Philippines, Japan, Korea, Thailand&nbsp;</p>
+				<p>&nbsp; &nbsp; <strong>Location</strong>: 1051 Winnipeg Ave</p>
+				<p>&nbsp; &nbsp; <strong>Contact</strong>: Tel: (204) 272-801</p>
+				<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Website: http://www.luckysupermarket.ca</p>
+			  </div>
+			</div>
+			</div>
+      
+    </section>
+   </div>
+  </main>
+  <footer class="footer">
+  <p>(C) COMP 3020, Designed by Group 22 All rights Reserved</p>
+</footer>
+<script type="text/javascript" src="scripty.js"></script>
+</body>
+</html>
